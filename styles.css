@@ -1,16 +1,16 @@
 /* Modern CV Styles */
 :root {
-    --primary-color: #4f46e5;
-    --primary-light: #c7d2fe;
-    --primary-dark: #3730a3;
+    --primary-color: #1e3a8a;
+    --primary-light: #93c5fd;
+    --primary-dark: #1e40af;
     --text-primary: #0f172a;
-    --text-secondary: #334155;
+    --text-secondary: #475569;
     --text-light: #64748b;
-    --bg-light: #f1f5f9;
-    --bg-section: #f8fafc;
-    --border-color: #cbd5e1;
-    --accent-color: #6366f1;
-    --highlight-color: #818cf8;
+    --bg-light: #dbeafe;
+    --bg-section: #eff6ff;
+    --border-color: #bfdbfe;
+    --accent-color: #60a5fa;
+    --highlight-color: #3b82f6;
 }
 
 * {
@@ -26,7 +26,7 @@ html, body {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 50%, #ddd6fe 100%);
+    background: linear-gradient(135deg, #dbeafe 0%, #93c5fd 50%, #60a5fa 100%);
     color: var(--text-primary);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
@@ -44,7 +44,7 @@ body {
     min-height: 100vh;
     max-width: 95vw;
     background: white;
-    box-shadow: 0 25px 50px -12px rgba(79, 70, 229, 0.25), 0 12px 24px -8px rgba(79, 70, 229, 0.15);
+    box-shadow: 0 25px 50px -12px rgba(30, 58, 138, 0.25), 0 12px 24px -8px rgba(30, 58, 138, 0.15);
     padding: calc(100vh * 0.03);
     overflow: visible;
     display: flex;
@@ -165,7 +165,7 @@ h3 i {
 }
 
 .skill-tag {
-    background: linear-gradient(135deg, #a5b4fc, #c7d2fe);
+    background: linear-gradient(135deg, #93c5fd, #bfdbfe);
     color: var(--primary-dark);
     padding: calc(100vh * 0.004) calc(100vh * 0.012);
     border-radius: 20px;
@@ -177,8 +177,8 @@ h3 i {
 
 .skill-tag:hover {
     transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(79, 70, 229, 0.3);
-    background: linear-gradient(135deg, #818cf8, #a5b4fc);
+    box-shadow: 0 4px 8px rgba(30, 58, 138, 0.3);
+    background: linear-gradient(135deg, #60a5fa, #93c5fd);
 }
 
 /* Projects Section */
@@ -197,7 +197,7 @@ h3 i {
 
 .project-item:hover {
     background: var(--bg-light);
-    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.15);
+    box-shadow: 0 4px 12px rgba(30, 58, 138, 0.15);
     border-left-color: var(--primary-color);
 }
 
@@ -241,7 +241,7 @@ h3 i {
 }
 
 .timeline-item:hover {
-    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.12);
+    box-shadow: 0 4px 12px rgba(30, 58, 138, 0.12);
     border-left-color: var(--primary-color);
 }
 
